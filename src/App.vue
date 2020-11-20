@@ -3,17 +3,19 @@
     export default Vue.extend({
         mpType: 'app',
         onLaunch() {
-            console.log('App Launch')
+            console.log('App Launch1')
         },
         onShow() {
-            console.log('App Show')
+            console.log('App Show1')
         },
         onHide() {
-            console.log('App Hide')
+            console.log('App Hide1')
         }
     });
 </script>
 
-<style>
+<style lang='scss'>
+    @import "uview-ui/index.scss";
     /*每个页面公共css */
+    @import "./styles/css/app.scss";
 </style>

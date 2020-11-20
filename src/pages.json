@@ -1,16 +1,63 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+  "easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
 		{
-			"path": "pages/index/index",
+			"path": "pages/login/login",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/servicer/servicer",
+			"style": {
+				"navigationBarTitleText": "服务"
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "我的"
 			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor": "#FFFFFF",
 		"backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+		"color": "#909399",
+		"selectedColor": "#303133",
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/icon/service.png",
+				"selectedIconPath": "static/icon/serviceSel.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/servicer/servicer",
+				"iconPath": "static/icon/order.png",
+				"selectedIconPath": "static/icon/orderSel.png",
+				"text": "服务"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"iconPath": "static/icon/my.png",
+				"selectedIconPath": "static/icon/mySel.png",
+				"text": "我的"
+			}
+		]
 	}
 }

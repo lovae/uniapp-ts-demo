@@ -1,0 +1,53 @@
+[
+  {
+    "name": "authservice",
+    "isdefault": true,
+    "apitype": "remote",
+    "serviceHttpUri": {
+      "UrlScheme": "https",
+      "UrlHost": "www.yeheiot.top",
+      "UrlPort": 8001,
+      "UrlBaseAdress": "ga"
+    },
+    "serviceHttpsUri": {
+      "UrlScheme": "https",
+      "UrlHost": "www.yeheiot.top",
+      "UrlPort": 8011,
+      "UrlBaseAdress": "ga"
+    }
+  },
+  {
+    "name": "sysframeservice",
+    "isdefault": false,
+    "apitype": "remote",
+    "serviceHttpUri": {
+      "UrlScheme": "https",
+      "UrlHost": "www.yeheiot.top",
+      "UrlPort": 8002,
+      "UrlBaseAdress": "wf"
+    },
+    "serviceHttspUri": {
+      "UrlScheme": "https",
+      "UrlHost": "www.yeheiot.top",
+      "UrlPort": 8012,
+      "UrlBaseAdress": "wf"
+    }
+  },
+  {
+    "name": "LockIndexService",
+    "isdefault": false,
+    "apitype": "remote",
+    "serviceHttpUri": {
+      "UrlScheme": "https",
+      "UrlHost": "www.yeheiot.top",
+      "UrlPort": 8004,
+      "UrlBaseAdress": "ab"
+    },
+    "serviceHttpsUri": {
+      "UrlScheme": "https",
+      "UrlHost": "www.yeheiot.top",
+      "UrlPort": 8001,
+      "UrlBaseAdress": "ga"
+    }
+  }
+]
