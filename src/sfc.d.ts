@@ -4,3 +4,4 @@ declare module "*.vue" {
 }
 declare module "uview-ui"
 declare module "@/js_sdk/gangdiedao-uni-axios"
+declare module "js-cookie"

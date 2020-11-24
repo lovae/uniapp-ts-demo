@@ -5,7 +5,7 @@ import store from '@/store/index'
 
 // 环境的切换
 if (process.env.NODE_ENV === 'development') {
-  axios.defaults.baseURL = 'http://192.168.1.53:8001/ga';
+  axios.defaults.baseURL = 'http://192.168.1.53';
 } else if (process.env.NODE_ENV === 'debug') {
   axios.defaults.baseURL = 'https://www.yeheiot.top';
 } else if (process.env.NODE_ENV === 'production') {

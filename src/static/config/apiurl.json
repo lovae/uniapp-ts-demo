@@ -4,14 +4,14 @@
     "isdefault": true,
     "apitype": "remote",
     "serviceHttpUri": {
-      "UrlScheme": "https",
-      "UrlHost": "www.yeheiot.top",
+      "UrlScheme": "http",
+      "UrlHost": "192.168.1.53",
       "UrlPort": 8001,
       "UrlBaseAdress": "ga"
     },
     "serviceHttpsUri": {
       "UrlScheme": "https",
-      "UrlHost": "www.yeheiot.top",
+      "UrlHost": "192.168.1.53",
       "UrlPort": 8011,
       "UrlBaseAdress": "ga"
     }
@@ -21,14 +21,14 @@
     "isdefault": false,
     "apitype": "remote",
     "serviceHttpUri": {
-      "UrlScheme": "https",
-      "UrlHost": "www.yeheiot.top",
+      "UrlScheme": "http",
+      "UrlHost": "192.168.1.53",
       "UrlPort": 8002,
       "UrlBaseAdress": "wf"
     },
     "serviceHttspUri": {
       "UrlScheme": "https",
-      "UrlHost": "www.yeheiot.top",
+      "UrlHost": "192.168.1.53",
       "UrlPort": 8012,
       "UrlBaseAdress": "wf"
     }
@@ -38,8 +38,8 @@
     "isdefault": false,
     "apitype": "remote",
     "serviceHttpUri": {
-      "UrlScheme": "https",
-      "UrlHost": "www.yeheiot.top",
+      "UrlScheme": "http",
+      "UrlHost": "192.168.1.53",
       "UrlPort": 8004,
       "UrlBaseAdress": "ab"
     },
